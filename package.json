@@ -2,11 +2,11 @@
   "name": "erajs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "parcel index.html",
-    "release": "parcel build index.html --public-url ."
+    "watch": "parcel ./index.html",
+    "release": "parcel build ./index.html --public-url ."
   },
   "repository": {
     "type": "git",
