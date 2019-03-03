@@ -3,4 +3,4 @@ var e=document.getElementById("texts");function n(n){e.appendChild(n)}function o
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=r(require("./corejs/erajscore.ts"));function r(e){return e&&e.__esModule?e:{default:e}}
 },{"./corejs/erajscore.ts":"aHJu"}]},{},["Focm"], null)
-//# sourceMappingURL=/erajs.b200168a.map
+//# sourceMappingURL=erajs.b200168a.map

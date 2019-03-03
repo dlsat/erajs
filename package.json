@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "parcel index.html -d docs",
-    "release": "parcel build index.html -d docs"
+    "compile": "parcel index.html --public-url .",
+    "release": "parcel build index.html --public-url ."
   },
   "repository": {
     "type": "git",
