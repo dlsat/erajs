@@ -1,0 +1,28 @@
+{
+  "name": "erajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "parcel index.html",
+    "release": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlsat/erajs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlsat/erajs/issues"
+  },
+  "homepage": "https://github.com/dlsat/erajs#readme",
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {}
+}

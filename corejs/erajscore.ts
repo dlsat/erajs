@@ -17,5 +17,9 @@ function printl(s) {
 	printnewline()
 }
 
-console.log("hoge")
+console.log("hoge2222")
 console.log(`hoge${1+2}`)
+
+
+
+
