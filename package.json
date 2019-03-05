@@ -21,9 +21,12 @@
   },
   "homepage": "https://github.com/dlsat/erajs#readme",
   "devDependencies": {
+    "@types/lz-string": "^1.3.33",
     "parcel": "^1.11.0",
     "parcel-plugin-clean-dist": "0.0.6",
     "typescript": "^3.3.3333"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lz-string": "^1.4.4"
+  }
 }

@@ -1,25 +1,28 @@
 
-let texts = document.getElementById("texts")
+let texts: HTMLElement
 function div() {
-	texts = texts || document.getElementById("texts")
+    if (!texts) {
+        texts = document.createElement('div')
+        document.body.appendChild(texts)
+    }
 	return texts
 }
 
-export function element(e: Node) {
+export async function element(e: Node) {
 	div().appendChild(e)
 }
-export function raw(str: string) {
-	element(document.createTextNode(str))
+export async function raw(str: string) {
+    await element(document.createTextNode(str))
 }
-export function newline() {
-	element(document.createElement("br"))
+export async function newline() {
+    await element(document.createElement("br"))
 }
-export function s(s: string) {
-	raw(s)
+export async function s(s: string) {
+    await raw(s)
 }
-export function l(s: string) {
-	raw(s)
-	newline()
+export async function l(s: string) {
+    await raw(s)
+    await newline()
 }
 
 

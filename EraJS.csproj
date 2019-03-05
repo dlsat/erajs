@@ -77,10 +77,17 @@
     <TypeScriptCompile Include="src\corejs\erajscore.ts" />
     <TypeScriptCompile Include="src\corejs\print.ts" />
     <TypeScriptCompile Include="src\gameflow.ts" />
+    <TypeScriptCompile Include="src\character.ts" />
+    <TypeScriptCompile Include="src\savedata.ts" />
     <TypeScriptCompile Include="src\main.ts" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="src\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="package.json" />
+    <Content Include="tsconfig.json" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
